@@ -1,0 +1,15 @@
+{
+  "name": "my-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "devDependencies": {
+    "syncpack": "^12.3.0"
+  },
+  "scripts": {
+    "syncpack:list": "syncpack list-mismatches",
+    "syncpack:fix": "syncpack fix-mismatches"
+  }
+}

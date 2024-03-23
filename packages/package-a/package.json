@@ -1,0 +1,18 @@
+{
+  "name": "@okeeffed/package-a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@okeeffed/package-b": "*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "publishMetadata": {
+    "main": "index.js"
+  }
+}

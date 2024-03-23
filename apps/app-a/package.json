@@ -1,0 +1,22 @@
+{
+  "name": "@okeeffed/app-a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "tsx index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@okeeffed/package-a": "*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "publishMetadata": {
+    "main": "index.js"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.1"
+  }
+}
